@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+
+          <LinearLayout
+              android:layout_marginTop="?attr/actionBarSize"
+              android:layout_width="match_parent"
+              android:gravity="center_horizontal"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:fontFamily="@font/poppins_bold"
+                  android:text="Coronavirus COVID-19\nGlobal Cases Progress"
+                  android:textColor="#fff"
+                  android:textAlignment="center"
+                  android:gravity="center_horizontal"
+                  android:textSize="24sp"
+                  ></TextView>
+              <TextView
+                  android:id="@+id/tv_error_g"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"></TextView>
+              <com.github.mikephil.charting.charts.BarChart
+                  android:id="@+id/bar_chart_g"
+                  android:layout_width="400dp"
+                  android:layout_height="430dp"></com.github.mikephil.charting.charts.BarChart>
+          </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

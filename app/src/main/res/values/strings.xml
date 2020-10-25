@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">COVID-19 Tracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_ethiopia">Ethiopia</string>
+    <string name="title_country">Country</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nearest_hospitals">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
